@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:background="@drawable/shape_progress_dailog_bg"
+    android:layout_gravity="center" >
+    
+    
+    
+    <ProgressBar
+        android:id="@+id/id_progress" 
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        style="@style/style_progress_circle"
+        android:layout_centerInParent="true"/>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/id_progress"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:text="加载中,请稍后..."/>
+    
+
+</RelativeLayout>
